@@ -4,6 +4,9 @@ import numpy as np
 from wordcloud import WordCloud, STOPWORDS
 import matplotlib.pyplot as plt
 import nltk 
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('averaged_perceptron_tagger')
 import regex as re
 import math
 from features import sentence_score,cue_phrase_cal,upper_cal,digit_cal,sentence_pos,sentence_len_cal,pnoun_cal,heading_cal,text_cleaner,steming

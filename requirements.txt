@@ -1,7 +1,6 @@
 streamlit
 numpy
 pandas
-math
 regrex
 plotly
 wordcloud

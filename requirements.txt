@@ -2,6 +2,7 @@ streamlit
 numpy
 pandas
 regrex
+nltk
 plotly
 wordcloud
 matplotlib

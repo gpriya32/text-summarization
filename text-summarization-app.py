@@ -19,7 +19,7 @@ from nltk.stem import *
 st.title("☂€✠☂")
 st.title("Text Summarization App ✍")
 
-# st.markdown(page_bg_img, unsafe_allow_html=True)
+
 
 text = st.text_area('Write your paragraph here:') 
 

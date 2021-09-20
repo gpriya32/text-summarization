@@ -58,7 +58,7 @@ if st.button('SUMMARIZE'):
 
     summary=""
     for sentence in sent_tokens:
-      if total_score[sentence]>0.4*avg:
+      if total_score[sentence]>0.5*avg:
         summary+=sentence+" "
     # print(summary)
     st.success(summary)

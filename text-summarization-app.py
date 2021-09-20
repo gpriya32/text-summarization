@@ -18,14 +18,6 @@ from nltk.stem import *
 
 st.title("☂€✠☂")
 st.title("Text Summarization App ✍")
-page_bg_img = '''
-<style>
-body {
-background-image: url("https://www.pngfind.com/pngs/m/34-349037_light-streaks-johns-hopkins-logo-white-hd-png.png");
-background-size: cover;
-}
-</style>
-'''
 
 st.markdown(page_bg_img, unsafe_allow_html=True)
 
